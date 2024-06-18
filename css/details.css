@@ -1,0 +1,35 @@
+@import "./header.css";
+@import "./inputs.css";
+
+.book {
+  font-family: "Courier New", Courier, monospace;
+  padding: 1em;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em;
+}
+
+.book-img {
+  width: 500px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.book .info {
+  display: flex;
+}
+
+.book .info-label {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .book {
+    grid-template-columns: auto;
+  }
+  .book-img {
+    width: 100%;
+  }
+}

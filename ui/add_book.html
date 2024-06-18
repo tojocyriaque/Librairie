@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/add.css" />
+    <title>Ajouter</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <h1>Librairie</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Livres</a></li>
+          <li><a href="./add_book.html">Ajouter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="add-form" action="" method="post">
+        <div id="title">
+          <label for="title-inp">Titre:</label>
+          <input id="title-inp" type="text" name="titre" class="form-input" />
+        </div>
+        <div id="authors">
+          <label for="authors-inp">Auteur(s):</label>
+          <input
+            id="authors-inp"
+            type="text"
+            name="auteurs"
+            class="form-input"
+          />
+        </div>
+        <div id="isbn">
+          <label for="isbn-inp">ISBN:</label>
+          <input id="isbn-inp" type="text" name="auteurs" class="form-input" />
+        </div>
+        <div id="editor">
+          <label for="editor-inp">Editeur:</label>
+          <input
+            id="editor-inp"
+            type="text"
+            name="editeur"
+            class="form-input"
+          />
+        </div>
+        <div id="pub-date">
+          <label for="pub-date-inp">Date de publication:</label>
+          <input
+            id="pub-date-inp"
+            type="number"
+            name="datePublication"
+            class="form-input"
+          />
+        </div>
+        <div id="category">
+          <label for="category-inp">Genre:</label>
+          <input
+            id="category-inp"
+            type="text"
+            name="genre"
+            class="form-input"
+          />
+        </div>
+
+        <div id="lang">
+          <label for="lang-inp">Langue:</label>
+          <select id="lang-inp" name="langue" class="form-input">
+            <option value="Français">Français</option>
+            <option value="Anglais">Anglais</option>
+            <option value="Espagnol">Espagnol</option>
+            <option value="Allemand">Allemand</option>
+          </select>
+        </div>
+        <div id="nbr-pages">
+          <label for="nbr-pages-inp">Genre:</label>
+          <input
+            id="nbr-pages-inp"
+            type="text"
+            name="genre"
+            class="form-input"
+          />
+        </div>
+        <div id="resume">
+          <label for="resume-inp">Résumé:</label>
+          <textarea name="resume" id="resume-inp" cols="30" rows="5"></textarea>
+        </div>
+        <div id="place">
+          <label for="place-inp">Emplacement:</label>
+          <input
+            id="place-inp"
+            type="text"
+            name="emplacement"
+            class="form-input"
+          />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+#header {
+  background: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid gray;
+  padding: 1cap;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#header nav {
+  display: flex;
+  align-items: center;
+}
+
+#header nav ul {
+  padding: 0.3em;
+  list-style: none;
+  display: flex;
+  gap: 0.5em;
+}
+
+#header nav a {
+  text-decoration: none;
+}
+
+#header label {
+  font-weight: bold;
+}

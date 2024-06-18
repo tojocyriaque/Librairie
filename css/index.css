@@ -1,0 +1,37 @@
+@import "./header.css";
+@import "./body.css";
+@import "./inputs.css";
+
+#books {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  font-family: "Courier New", Courier, monospace;
+  gap: 3em;
+}
+
+.book {
+  border: 1px solid grey;
+  padding: 1em;
+  border-radius: 3px;
+}
+
+.book-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 4px;
+}
+
+.details-btn {
+  text-decoration: none;
+}
+
+@media (max-width: 856px) {
+  #books {
+    grid-template-columns: auto;
+  }
+  .book-img {
+    width: 100%;
+  }
+}

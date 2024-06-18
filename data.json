@@ -1,0 +1,49 @@
+{
+  "livres": [
+    {
+      "titre": "Pokémon",
+      "auteurs": ["Satoshi Tajiri"],
+      "isbn": "978-2-07-036822-8",
+      "image": "/images/Bibliothèque verte1.png",
+      "editeur": "Gallimard",
+      "datePublication": "1996",
+      "genre": "Bibliothèque verte",
+      "resume": "Les aventures de dresseurs Pokémon dans un monde rempli de créatures fantastiques.",
+      "langue": "Français",
+      "nombrePages": 368,
+      "disponibilite": true,
+      "etat": "Bon état",
+      "emplacement": "Réserves"
+    },
+    {
+      "titre": "Pokémon 2",
+      "auteurs": ["Satoshi Tajiri"],
+      "isbn": "978-2-07-036822-8",
+      "image": "/images/Bibliothèque verte2.png",
+      "editeur": "Gallimard",
+      "datePublication": "1998",
+      "genre": "Bibliothèque verte",
+      "resume": "Continuation des aventures des dresseurs Pokémon à travers de nouvelles régions et défis.",
+      "langue": "Français",
+      "nombrePages": 416,
+      "disponibilite": true,
+      "etat": "Bon état",
+      "emplacement": "Réserves"
+    },
+    {
+      "titre": "Pokémon 3",
+      "auteurs": ["Satoshi Tajiri"],
+      "isbn": "978-2-07-036822-8",
+      "image": "/images/Bibliothèque verte3.png",
+      "editeur": "Gallimard",
+      "datePublication": "2000",
+      "genre": "Bibliothèque verte",
+      "resume": "Les aventures de Pokémon se poursuivent avec de nouveaux Pokémon et de nouveaux défis.",
+      "langue": "Français",
+      "nombrePages": 384,
+      "disponibilite": true,
+      "etat": "Bon état",
+      "emplacement": "Réserves"
+    }
+  ]
+}

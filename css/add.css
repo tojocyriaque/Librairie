@@ -1,0 +1,82 @@
+#add {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 3;
+}
+#add-bg {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+#add-content {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  padding: 2cap;
+  border: 2px solid gray;
+  border-radius: 7px;
+  background: #fff;
+  z-index: 3;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3cap;
+}
+@media (max-width: 1000px) {
+  #add-content {
+    position: relative;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+  }
+}
+
+#add-img {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 400px;
+  display: grid;
+  grid-template-rows: 40px auto;
+}
+#add-img label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#book-img {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+#book-img:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#book-img-file {
+  display: none;
+}
+
+#add-form {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  padding: 2cap;
+  border-radius: 10px;
+  background: #fff;
+  z-index: 3;
+}
+#add-form div {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  padding: 0.2em;
+  gap: 2cap;
+}

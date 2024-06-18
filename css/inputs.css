@@ -1,0 +1,17 @@
+button {
+  padding: 1em;
+  color: white;
+  background: #3879da;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+input[type=text]{
+    padding: 1px 0 1px 5px;
+}
+
+header select {
+  font-weight: medium;
+  padding: 1em;
+}
