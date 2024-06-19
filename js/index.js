@@ -34,9 +34,6 @@ async function getBooks() {
   for (let book of booksJSON) {
     if (!books.some((element) => element.titre === book.titre)) {
       books.push(book);
-      if (!categories.some((e) => e === book.genre)) {
-        categories.push(book.genre);
-      }
     }
   }
 
